@@ -21,7 +21,7 @@ OWNER_ID = list(map(int, getenv("OWNER_ID", " 6074152428").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/harshdemon/modular")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/NotyourHash/modular-")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
