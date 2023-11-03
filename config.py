@@ -21,11 +21,11 @@ OWNER_ID = list(map(int, getenv("OWNER_ID", " 6681615908").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/NotyourHash/modular-")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://telegra.ph/file/df7d9c0d40e57d4a6ec38.jpg")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://telegra.ph/file/df7d9c0d40e57d4a6ec38.jpg")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/queen_officialchnl")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/queen_supportgroup")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
