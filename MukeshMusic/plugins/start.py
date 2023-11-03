@@ -139,7 +139,7 @@ async def start_comm(client, message: Message, _):
                 )
             return
         if name[0:3] == "inf":
-            m = await message.reply_text("🔎")
+            m = await message.reply_sticker("CAACAgEAAx0Cd05iswADrGVEd8LXOOHLq30r5TYiTWGiFw-XAAIYAwACYkQpRlSJLZc1onIxMwQ")
             query = (str(name)).replace("info_", "", 1)
             query = f"https://www.youtube.com/watch?v={query}"
             results = VideosSearch(query, limit=1)
