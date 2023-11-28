@@ -16,7 +16,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝗤𝗨𝗘𝗘𝗡")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", " 6681615908").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "6661176722").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
@@ -59,7 +59,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
 STRING1 = getenv("STRING_SESSION", None)
-STRING2 = getenv("STRING_SESSION2", "BQDB_5Dn1Mkrnlj3grICbQkM41jPFMT5ZMSb9vLw-5WXcEJ5wiB8akTpbyWD0jE2jdcrLy2Cdv8w7Uv_hLU5-s_yqkgflCtfr0B_HdeZ46lm-Z1vJ4EtVuq9Rudt8hZGVYm77lyW8P4965nIWDq8sFtYzymSNThKaU0dlP7TIBS-amgPbfIsQutljZNxZQwEqdUpR6vS0Mn5wliWLOKizPuzw5SWI_R_bVfycxNpEKQgYi8YQOPocHr2eUCpEKlE0PKB9CTu2pj2AHM2S_SYV5N5vv9QaxrNoSa0dghrIppxWzLOa-7cseEgBzrm3N_nSe3sARdnSoc2B0DM7s2cFFEhAAAAAY5J4AkA")
+STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
@@ -130,9 +130,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = ""
+            PING_IMG_URL = "https://telegra.ph/file/84164daa9df92fba71a0e.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://graph.org/file/bae8ca4a24a6902df2e0c.jpg"
+            START_IMG_URL = "https://telegra.ph/file/84164daa9df92fba71a0e.jpg"
